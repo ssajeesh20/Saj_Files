@@ -9,5 +9,7 @@ public interface AccountDao {
 	
 	public Account findAccountById(int accountNo);
 	
+	public Account findAccountById1(int accountNo);
+	
 
 }
