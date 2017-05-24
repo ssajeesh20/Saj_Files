@@ -16,5 +16,11 @@ public class AccountDaoImpl implements AccountDao{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	@Override
+	public Account findAccountById1(int accountNo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
