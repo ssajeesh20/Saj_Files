@@ -3,8 +3,8 @@ group='BankApp'
 version='0.0.1-SANPSHOT'
 description = "MY First Gradle Project"
 
-sourceCompactibility = 1.8
-targetCompactibility = 1.8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 // In this section you declare where to find the dependencies of your project
 repositories {
