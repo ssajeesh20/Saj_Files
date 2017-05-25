@@ -18,7 +18,7 @@ public class AccountDaoImpl implements AccountDao{
 	}
 	
 	@Override
-	public Account findAccountById1(int accountNo) {
+	public Account findAccountById11(int accountNo) {
 		// TODO Auto-generated method stub
 		return null;
 	}

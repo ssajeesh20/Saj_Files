@@ -1,0 +1,21 @@
+apply plugin: 'java'
+group='BankApp'
+version='0.0.1-SANPSHOT'
+description = "MY First Gradle Project"
+
+sourceCompactibility = 1.8
+targetCompactibility = 1.8
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    maven{
+    	url "http://repo.maven.apache.org/maven2"
+    }
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+	compile 'org.mockito:mockito-all:1.10.19'
+    testCompile 'junit:junit:4.12'
+}
+
